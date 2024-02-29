@@ -1,14 +1,12 @@
-//import logo from './logo.svg';
-
 import "./App.css";
-
-// Change the import to use default export (remove curly braces)
 import Profile from "./components/Profile.js";
+import Welcome from "./components/Welcome.js";
 
 function App() {
   return (
     <div className="App">
       <Profile />
+      <Welcome />
     </div>
   );
 }
