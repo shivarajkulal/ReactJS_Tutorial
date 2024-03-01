@@ -1,11 +1,11 @@
 import "./App.css";
+import ClassClick from "./components/ClassClick";
 
-import Message from "./components/Message.js";
 
 function App() {
   return (
     <div className="App">
-      <Message />
+      <ClassClick/>
     </div>
   );
 }
