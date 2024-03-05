@@ -1,4 +1,6 @@
-class EventBind extends Component {
+import React ,{component} from 'react';
+
+class EventBinding extends component {
   constructor() {
     super();
     this.state = {
@@ -85,3 +87,5 @@ class EventBind extends Component {
 }
 
 */
+
+export default EventBinding;

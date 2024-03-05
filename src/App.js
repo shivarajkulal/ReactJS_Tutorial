@@ -1,11 +1,11 @@
 import "./App.css";
-import ClassClick from "./components/ClassClick";
-
-
+import Profile from "./components/Profile.js";
+import ParentComponent from './components/ParentComponent.js';
 function App() {
   return (
     <div className="App">
-      <ClassClick/>
+      <Profile/>
+      <ParentComponent/>
     </div>
   );
 }
